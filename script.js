@@ -13,10 +13,11 @@ const watch = setInterval(function time(){
     if (min < 10) min = '0' + min;
     if (sec < 10) sec = '0' + sec;
 
+    
     if ( hr >= 0 && hr < 12){
         document.body.style.background = 'linear-gradient(120deg, #ffe53bd8, #ff2525da)';
     } else if ( hr >=12 && hr < 18){
-        document.body.style.background = 'linear-gradient(120deg, #3b9affd8, #135eafd8)';
+        document.body.style.background = 'linear-gradient(120deg, #3b9affd8, #0c3c6fe7)';
     } else {
         document.body.style.background = 'linear-gradient(120deg, #0d2a48, #010911)';
         // bgwatch.innerHTML = `background: #0d294867`;
@@ -25,8 +26,9 @@ const watch = setInterval(function time(){
     hour.textContent = hr;
     minute.textContent = min;
     second.textContent = sec;
-
-    
 })
+
+// mudar media queries
+//mudar cor do bg watch
 
 

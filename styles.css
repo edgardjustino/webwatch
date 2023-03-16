@@ -7,7 +7,7 @@
 
 --root{
     --bg-morning: linear-gradient(120deg, #ffe53bd8, #ff2525da);
-    --bg-afternoon: linear-gradient(120deg, #3b9affd8, #135eafd8);
+    --bg-afternoon: linear-gradient(120deg, #3b9affd8, #0c3c6fe7);
     --bg-night: linear-gradient(120deg, #0d2a48, #010911);
 
     --bg-watch-morning: #ffe53b2f; 
