@@ -6,9 +6,13 @@
 }
 
 --root{
-    --bg-morning: linear-gradient(120deg, #ffe53bd8, #ff2525da );
-    --bg-afternoon: linear-gradient(120deg, #ffe53bd8, #ff2525da );
-    --bg-night: linear-gradient(120deg, #ffe53bd8, #ff2525da );
+    --bg-morning: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    --bg-afternoon: linear-gradient(120deg, #3b9affd8, #135eafd8);
+    --bg-night: linear-gradient(120deg, #0d2a48, #010911);
+
+    --bg-watch-morning: #ffe53b2f; 
+    --bg-watch-afternoon: #3b9aff64;
+    --bg-watch-night: #0d294867;
 }
 
 body {
@@ -17,6 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vp;
 }
 
 .watch {
@@ -24,7 +29,7 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 200px;
-    background: #ffe53b2f;
+    background: #5b5b5b2f;
     /* opacity: .5; */
     /* backdrop-filter: blur(5px); */
     width: 550px;
